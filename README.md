@@ -1,8 +1,6 @@
----
-title: Network Trace Analysis
----
+Network Trace Analysis
+======================
 
-\maketitle
 The goal of this "laboratory" is to introduce you to the concepts of
 passive testing using network traces. In this laboratory, we will be
 only using the principles learned and implementations of our own. Your
@@ -13,7 +11,7 @@ complex) network monitors, but given our restrictions in time we will
 not.
 
 Passive Testing -- Network Monitoring
-=====================================
+-------------------------------------
 
 For this purpose you are given a compressed archive runmon.tgz or the
 contents of the git repo https://github.com/jorgelopezcoronado/ntalab.
