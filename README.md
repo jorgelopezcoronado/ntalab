@@ -40,7 +40,7 @@ significant bit at the right to the most significant bit at the left):
 -   bit 3: Insert bugs not replying randomly to client requests.
 
 If the previous was not clear enough, you can run the VSNPServer
-(`sudo ./VSNPServer -s 127.0.0.1 -e NUM` to inject errors into your
+(`sudo ./VSNPServer -s 127.0.0.1 -e NUM`) to inject errors into your
 code, here is a brief summary of the different NUM possibilities:
 
 -   1 = bit 1 on (insert the errors as described above in bit 1)
