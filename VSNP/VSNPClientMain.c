@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "NetClient.h"
 
+#include <arpa/inet.h>
 #include <netinet/in.h>
 #include <string.h>
 #include <limits.h>

@@ -43,6 +43,7 @@ nethost *createNetHost(int client, char *IPAddress, unsigned short netport)
 	nclient->fd = client;
 	nclient->ip = addresscopy;
 	nclient->port = netport;
+	return nclient;
 }
 
 void destroyNetHost(nethost *nclient)

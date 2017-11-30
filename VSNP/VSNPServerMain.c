@@ -2,12 +2,15 @@
 #include <stdio.h>
 #include "NetServer.h"
 
+#include <arpa/inet.h>
 #include <netinet/in.h>
 
 #include <limits.h>
 #include <stdlib.h>
 
 #include <time.h>
+
+#include <string.h>
 
 unsigned short fortuneCookie(unsigned short seed, unsigned char correct)
 {
@@ -126,7 +129,7 @@ int main(int argc, char **argv)
 			}
 			if(errors > 7)
 			{
-				printf("Error! Errors should be a number between 0 and 7", argv[i]);
+				printf("Error! Errors = %s should be a number between 0 and 7", argv[i]);
 				printf("%s", help);
 				exit(PARAMERR);
 
